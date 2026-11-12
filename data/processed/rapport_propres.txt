@@ -1,0 +1,22 @@
+======================================================================
+RAPPORT - DÉTECTION ANOMALIES SUR DONNÉES PROPRES
+======================================================================
+
+Algorithme : Isolation Forest
+Contamination : 5%
+Features utilisées : 8
+
+RÉSULTATS :
+  Total lignes : 1211
+  Anomalies détectées : 61 (5.04%)
+
+PAR ACTION :
+  CIH : 17 anomalies (9.83%)
+  ATW : 14 anomalies (8.09%)
+  GAZ : 13 anomalies (7.51%)
+  LABEL : 8 anomalies (4.62%)
+  IAM : 6 anomalies (3.47%)
+  BCP : 2 anomalies (1.16%)
+  COSUMAR : 1 anomalies (0.58%)
+
+Action la plus volatile : CIH (17 anomalies)

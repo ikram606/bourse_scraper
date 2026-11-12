@@ -1,0 +1,79 @@
+======================================================================
+RAPPORT FINAL - COMPARAISON PROPRES vs BRUITÉES-NETTOYÉES
+======================================================================
+
+PROJET : Détection d'anomalies - Bourse de Casablanca
+OBJECTIF : Démontrer l'impact du bruit sur la qualité des données
+
+======================================================================
+1. RÉSULTATS GLOBAUX
+======================================================================
+
+DONNÉES PROPRES :
+  - Total lignes       : 1211
+  - Anomalies détectées: 61 (5.04%)
+  - Score moyen        : 0.0826
+  - Score min          : -0.1206
+  - Score max          : 0.1575
+
+DONNÉES BRUITÉES-NETTOYÉES :
+  - Total lignes       : 1211
+  - Anomalies détectées: 121 (9.99%)
+  - Score moyen        : 0.0591
+  - Score min          : -0.1341
+  - Score max          : 0.1362
+
+DIFFÉRENCE :
+  - Anomalies supplémentaires: +60 (+4.95%)
+  - Augmentation relative    : +98.4%
+
+======================================================================
+2. COMPARAISON PAR ACTION
+======================================================================
+
+Action     | Propres      | Bruitées     | Diff
+------------------------------------------------------------
+ATW        |  14 ( 8.09%) |  14 ( 8.09%) |  +0
+BCP        |   2 ( 1.16%) |  20 (11.56%) | +18
+CIH        |  17 ( 9.83%) |  17 ( 9.83%) |  +0
+COSUMAR    |   1 ( 0.58%) |  24 (13.87%) | +23
+GAZ        |  13 ( 7.51%) |  21 (12.14%) |  +8
+IAM        |   6 ( 3.47%) |  13 ( 7.51%) |  +7
+LABEL      |   8 ( 4.62%) |  12 ( 6.94%) |  +4
+
+======================================================================
+3. CONCLUSIONS
+======================================================================
+
+✓ Impact du bruit :
+  Même après nettoyage, les données bruitées conservent des traces
+  d'anomalies (+60 anomalies, soit +98.4%).
+
+✓ Efficacité du pipeline de nettoyage :
+  Le pipeline a permis de réduire significativement le bruit,
+  mais ne peut pas restaurer parfaitement l'état initial.
+
+✓ Recommandation principale :
+  LA PRÉVENTION EST SUPÉRIEURE À LA CORRECTION
+  → Privilégier la qualité des données à la source
+  → Mettre en place des contrôles de validation en temps réel
+  → Éviter l'introduction de bruit dès la collecte
+
+✓ Actions les plus affectées :
+  - COSUMAR: +23 anomalies supplémentaires
+  - BCP: +18 anomalies supplémentaires
+  - GAZ: +8 anomalies supplémentaires
+
+======================================================================
+4. FICHIERS GÉNÉRÉS
+======================================================================
+
+GRAPHIQUES :
+  - graphique1_comparaison_globale.png
+  - graphique2_comparaison_par_action.png
+  - graphique3_distribution_propres.png
+  - graphique4_distribution_bruitees.png
+
+======================================================================
+FIN DU RAPPORT
+======================================================================

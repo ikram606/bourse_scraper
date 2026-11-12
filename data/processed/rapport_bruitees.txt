@@ -1,0 +1,19 @@
+======================================================================
+RAPPORT - DÉTECTION ANOMALIES (SEUIL AUTOMATIQUE)
+======================================================================
+
+Algorithme : Isolation Forest (contamination=auto)
+Seuil : 0.0002 (percentile 10)
+
+RÉSULTATS :
+  Total lignes : 1211
+  Anomalies : 121 (9.99%)
+
+PAR ACTION :
+  COSUMAR : 24 anomalies (13.87%)
+  GAZ : 21 anomalies (12.14%)
+  BCP : 20 anomalies (11.56%)
+  CIH : 17 anomalies (9.83%)
+  ATW : 14 anomalies (8.09%)
+  IAM : 13 anomalies (7.51%)
+  LABEL : 12 anomalies (6.94%)
